@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF52A9ED262A4E380066186E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52A9EC262A4E380066186E /* AppDelegate.swift */; };
+		CF52A9EF262A4E380066186E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52A9EE262A4E380066186E /* SceneDelegate.swift */; };
+		CF52A9F1262A4E380066186E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52A9F0262A4E380066186E /* ViewController.swift */; };
+		CF52A9F4262A4E380066186E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF52A9F2262A4E380066186E /* Main.storyboard */; };
+		CF52A9F7262A4E380066186E /* HTEC_Tennis_Tour.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF52A9F5262A4E380066186E /* HTEC_Tennis_Tour.xcdatamodeld */; };
+		CF52A9F9262A4E390066186E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF52A9F8262A4E390066186E /* Assets.xcassets */; };
+		CF52A9FC262A4E390066186E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF52A9FA262A4E390066186E /* LaunchScreen.storyboard */; };
+		CF52AA07262A4E390066186E /* HTEC_Tennis_TourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52AA06262A4E390066186E /* HTEC_Tennis_TourTests.swift */; };
+		CF52AA12262A4E390066186E /* HTEC_Tennis_TourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52AA11262A4E390066186E /* HTEC_Tennis_TourUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF52AA03262A4E390066186E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF52A9E1262A4E380066186E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF52A9E8262A4E380066186E;
+			remoteInfo = "HTEC Tennis Tour";
+		};
+		CF52AA0E262A4E390066186E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF52A9E1262A4E380066186E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF52A9E8262A4E380066186E;
+			remoteInfo = "HTEC Tennis Tour";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF52A9E9262A4E380066186E /* HTEC Tennis Tour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HTEC Tennis Tour.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF52A9EC262A4E380066186E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF52A9EE262A4E380066186E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF52A9F0262A4E380066186E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF52A9F3262A4E380066186E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF52A9F6262A4E380066186E /* HTEC_Tennis_Tour.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HTEC_Tennis_Tour.xcdatamodel; sourceTree = "<group>"; };
+		CF52A9F8262A4E390066186E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF52A9FB262A4E390066186E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF52A9FD262A4E390066186E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF52AA02262A4E390066186E /* HTEC Tennis TourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HTEC Tennis TourTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF52AA06262A4E390066186E /* HTEC_Tennis_TourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTEC_Tennis_TourTests.swift; sourceTree = "<group>"; };
+		CF52AA08262A4E390066186E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF52AA0D262A4E390066186E /* HTEC Tennis TourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HTEC Tennis TourUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF52AA11262A4E390066186E /* HTEC_Tennis_TourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTEC_Tennis_TourUITests.swift; sourceTree = "<group>"; };
+		CF52AA13262A4E390066186E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF52A9E6262A4E380066186E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF52A9FF262A4E390066186E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF52AA0A262A4E390066186E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF52A9E0262A4E380066186E = {
+			isa = PBXGroup;
+			children = (
+				CF52A9EB262A4E380066186E /* HTEC Tennis Tour */,
+				CF52AA05262A4E390066186E /* HTEC Tennis TourTests */,
+				CF52AA10262A4E390066186E /* HTEC Tennis TourUITests */,
+				CF52A9EA262A4E380066186E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF52A9EA262A4E380066186E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF52A9E9262A4E380066186E /* HTEC Tennis Tour.app */,
+				CF52AA02262A4E390066186E /* HTEC Tennis TourTests.xctest */,
+				CF52AA0D262A4E390066186E /* HTEC Tennis TourUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF52A9EB262A4E380066186E /* HTEC Tennis Tour */ = {
+			isa = PBXGroup;
+			children = (
+				CF52A9EC262A4E380066186E /* AppDelegate.swift */,
+				CF52A9EE262A4E380066186E /* SceneDelegate.swift */,
+				CF52A9F0262A4E380066186E /* ViewController.swift */,
+				CF52A9F2262A4E380066186E /* Main.storyboard */,
+				CF52A9F8262A4E390066186E /* Assets.xcassets */,
+				CF52A9FA262A4E390066186E /* LaunchScreen.storyboard */,
+				CF52A9FD262A4E390066186E /* Info.plist */,
+				CF52A9F5262A4E380066186E /* HTEC_Tennis_Tour.xcdatamodeld */,
+			);
+			path = "HTEC Tennis Tour";
+			sourceTree = "<group>";
+		};
+		CF52AA05262A4E390066186E /* HTEC Tennis TourTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF52AA06262A4E390066186E /* HTEC_Tennis_TourTests.swift */,
+				CF52AA08262A4E390066186E /* Info.plist */,
+			);
+			path = "HTEC Tennis TourTests";
+			sourceTree = "<group>";
+		};
+		CF52AA10262A4E390066186E /* HTEC Tennis TourUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF52AA11262A4E390066186E /* HTEC_Tennis_TourUITests.swift */,
+				CF52AA13262A4E390066186E /* Info.plist */,
+			);
+			path = "HTEC Tennis TourUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF52A9E8262A4E380066186E /* HTEC Tennis Tour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF52AA16262A4E390066186E /* Build configuration list for PBXNativeTarget "HTEC Tennis Tour" */;
+			buildPhases = (
+				CF52A9E5262A4E380066186E /* Sources */,
+				CF52A9E6262A4E380066186E /* Frameworks */,
+				CF52A9E7262A4E380066186E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HTEC Tennis Tour";
+			productName = "HTEC Tennis Tour";
+			productReference = CF52A9E9262A4E380066186E /* HTEC Tennis Tour.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF52AA01262A4E390066186E /* HTEC Tennis TourTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF52AA19262A4E390066186E /* Build configuration list for PBXNativeTarget "HTEC Tennis TourTests" */;
+			buildPhases = (
+				CF52A9FE262A4E390066186E /* Sources */,
+				CF52A9FF262A4E390066186E /* Frameworks */,
+				CF52AA00262A4E390066186E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF52AA04262A4E390066186E /* PBXTargetDependency */,
+			);
+			name = "HTEC Tennis TourTests";
+			productName = "HTEC Tennis TourTests";
+			productReference = CF52AA02262A4E390066186E /* HTEC Tennis TourTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF52AA0C262A4E390066186E /* HTEC Tennis TourUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF52AA1C262A4E390066186E /* Build configuration list for PBXNativeTarget "HTEC Tennis TourUITests" */;
+			buildPhases = (
+				CF52AA09262A4E390066186E /* Sources */,
+				CF52AA0A262A4E390066186E /* Frameworks */,
+				CF52AA0B262A4E390066186E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF52AA0F262A4E390066186E /* PBXTargetDependency */,
+			);
+			name = "HTEC Tennis TourUITests";
+			productName = "HTEC Tennis TourUITests";
+			productReference = CF52AA0D262A4E390066186E /* HTEC Tennis TourUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF52A9E1262A4E380066186E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CF52A9E8262A4E380066186E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					CF52AA01262A4E390066186E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CF52A9E8262A4E380066186E;
+					};
+					CF52AA0C262A4E390066186E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CF52A9E8262A4E380066186E;
+					};
+				};
+			};
+			buildConfigurationList = CF52A9E4262A4E380066186E /* Build configuration list for PBXProject "HTEC Tennis Tour" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF52A9E0262A4E380066186E;
+			productRefGroup = CF52A9EA262A4E380066186E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF52A9E8262A4E380066186E /* HTEC Tennis Tour */,
+				CF52AA01262A4E390066186E /* HTEC Tennis TourTests */,
+				CF52AA0C262A4E390066186E /* HTEC Tennis TourUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF52A9E7262A4E380066186E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF52A9FC262A4E390066186E /* LaunchScreen.storyboard in Resources */,
+				CF52A9F9262A4E390066186E /* Assets.xcassets in Resources */,
+				CF52A9F4262A4E380066186E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF52AA00262A4E390066186E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF52AA0B262A4E390066186E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF52A9E5262A4E380066186E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF52A9F1262A4E380066186E /* ViewController.swift in Sources */,
+				CF52A9ED262A4E380066186E /* AppDelegate.swift in Sources */,
+				CF52A9F7262A4E380066186E /* HTEC_Tennis_Tour.xcdatamodeld in Sources */,
+				CF52A9EF262A4E380066186E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF52A9FE262A4E390066186E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF52AA07262A4E390066186E /* HTEC_Tennis_TourTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF52AA09262A4E390066186E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF52AA12262A4E390066186E /* HTEC_Tennis_TourUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF52AA04262A4E390066186E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF52A9E8262A4E380066186E /* HTEC Tennis Tour */;
+			targetProxy = CF52AA03262A4E390066186E /* PBXContainerItemProxy */;
+		};
+		CF52AA0F262A4E390066186E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF52A9E8262A4E380066186E /* HTEC Tennis Tour */;
+			targetProxy = CF52AA0E262A4E390066186E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF52A9F2262A4E380066186E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF52A9F3262A4E380066186E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF52A9FA262A4E390066186E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF52A9FB262A4E390066186E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF52AA14262A4E390066186E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF52AA15262A4E390066186E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF52AA17262A4E390066186E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8SEUR2W2A;
+				INFOPLIST_FILE = "HTEC Tennis Tour/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.svemil.HTEC-Tennis-Tour";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF52AA18262A4E390066186E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8SEUR2W2A;
+				INFOPLIST_FILE = "HTEC Tennis Tour/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.svemil.HTEC-Tennis-Tour";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF52AA1A262A4E390066186E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8SEUR2W2A;
+				INFOPLIST_FILE = "HTEC Tennis TourTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.svemil.HTEC-Tennis-TourTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTEC Tennis Tour.app/HTEC Tennis Tour";
+			};
+			name = Debug;
+		};
+		CF52AA1B262A4E390066186E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8SEUR2W2A;
+				INFOPLIST_FILE = "HTEC Tennis TourTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.svemil.HTEC-Tennis-TourTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTEC Tennis Tour.app/HTEC Tennis Tour";
+			};
+			name = Release;
+		};
+		CF52AA1D262A4E390066186E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8SEUR2W2A;
+				INFOPLIST_FILE = "HTEC Tennis TourUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.svemil.HTEC-Tennis-TourUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HTEC Tennis Tour";
+			};
+			name = Debug;
+		};
+		CF52AA1E262A4E390066186E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8SEUR2W2A;
+				INFOPLIST_FILE = "HTEC Tennis TourUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.svemil.HTEC-Tennis-TourUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HTEC Tennis Tour";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF52A9E4262A4E380066186E /* Build configuration list for PBXProject "HTEC Tennis Tour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF52AA14262A4E390066186E /* Debug */,
+				CF52AA15262A4E390066186E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF52AA16262A4E390066186E /* Build configuration list for PBXNativeTarget "HTEC Tennis Tour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF52AA17262A4E390066186E /* Debug */,
+				CF52AA18262A4E390066186E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF52AA19262A4E390066186E /* Build configuration list for PBXNativeTarget "HTEC Tennis TourTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF52AA1A262A4E390066186E /* Debug */,
+				CF52AA1B262A4E390066186E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF52AA1C262A4E390066186E /* Build configuration list for PBXNativeTarget "HTEC Tennis TourUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF52AA1D262A4E390066186E /* Debug */,
+				CF52AA1E262A4E390066186E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF52A9F5262A4E380066186E /* HTEC_Tennis_Tour.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF52A9F6262A4E380066186E /* HTEC_Tennis_Tour.xcdatamodel */,
+			);
+			currentVersion = CF52A9F6262A4E380066186E /* HTEC_Tennis_Tour.xcdatamodel */;
+			path = HTEC_Tennis_Tour.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF52A9E1262A4E380066186E /* Project object */;
+}
