@@ -9,6 +9,11 @@ import UIKit
 
 class DrawTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var playerImageView: UIImageView!
+    @IBOutlet weak var playerFirstNameLabel: UILabel!
+    @IBOutlet weak var playerLastNameLabel: UILabel!
+    @IBOutlet weak var playerPointsLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

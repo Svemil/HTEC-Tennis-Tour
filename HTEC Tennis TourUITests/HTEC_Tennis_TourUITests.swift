@@ -25,8 +25,9 @@ class HTEC_Tennis_TourUITests: XCTestCase {
     func testExample() throws {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
-        app.launch()
+                app.launch()
 
+//        app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }

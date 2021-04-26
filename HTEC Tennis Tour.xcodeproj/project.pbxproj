@@ -9,13 +9,27 @@
 /* Begin PBXBuildFile section */
 		CF52A9ED262A4E380066186E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52A9EC262A4E380066186E /* AppDelegate.swift */; };
 		CF52A9EF262A4E380066186E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52A9EE262A4E380066186E /* SceneDelegate.swift */; };
-		CF52A9F1262A4E380066186E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52A9F0262A4E380066186E /* ViewController.swift */; };
 		CF52A9F4262A4E380066186E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF52A9F2262A4E380066186E /* Main.storyboard */; };
 		CF52A9F7262A4E380066186E /* HTEC_Tennis_Tour.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF52A9F5262A4E380066186E /* HTEC_Tennis_Tour.xcdatamodeld */; };
 		CF52A9F9262A4E390066186E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF52A9F8262A4E390066186E /* Assets.xcassets */; };
 		CF52A9FC262A4E390066186E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF52A9FA262A4E390066186E /* LaunchScreen.storyboard */; };
 		CF52AA07262A4E390066186E /* HTEC_Tennis_TourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52AA06262A4E390066186E /* HTEC_Tennis_TourTests.swift */; };
 		CF52AA12262A4E390066186E /* HTEC_Tennis_TourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52AA11262A4E390066186E /* HTEC_Tennis_TourUITests.swift */; };
+		CF52AA2B262A5BCF0066186E /* ToursViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52AA2A262A5BCF0066186E /* ToursViewController.swift */; };
+		CF52AA39262B14940066186E /* TourTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52AA37262B14940066186E /* TourTableViewCell.swift */; };
+		CF52AA3A262B14940066186E /* TourTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF52AA38262B14940066186E /* TourTableViewCell.xib */; };
+		CF52AA40262B14B50066186E /* PlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52AA3E262B14B50066186E /* PlayerTableViewCell.swift */; };
+		CF52AA41262B14B50066186E /* PlayerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF52AA3F262B14B50066186E /* PlayerTableViewCell.xib */; };
+		CF52AA49262B200F0066186E /* PlayerInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52AA48262B200F0066186E /* PlayerInfoViewController.swift */; };
+		CF52AA4E262B26530066186E /* TourPlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52AA4D262B26530066186E /* TourPlayersViewController.swift */; };
+		CF52AA54262B37D30066186E /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52AA53262B37D30066186E /* UIView.swift */; };
+		CF52AA5D262C685F0066186E /* APIRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52AA5C262C685F0066186E /* APIRequests.swift */; };
+		CF52AA66262C6A090066186E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52AA65262C6A090066186E /* Player.swift */; };
+		CF52AA86262F27D90066186E /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52AA85262F27D90066186E /* AlertHelper.swift */; };
+		CF52AAA72630ECBB0066186E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52AAA62630ECBB0066186E /* Helper.swift */; };
+		CF52AAAC2630FCF50066186E /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52AAAB2630FCF50066186E /* DrawViewController.swift */; };
+		CF52AAB2263197790066186E /* DrawTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52AAB0263197790066186E /* DrawTableViewCell.swift */; };
+		CF52AAB3263197790066186E /* DrawTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF52AAB1263197790066186E /* DrawTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +53,6 @@
 		CF52A9E9262A4E380066186E /* HTEC Tennis Tour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HTEC Tennis Tour.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF52A9EC262A4E380066186E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF52A9EE262A4E380066186E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CF52A9F0262A4E380066186E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CF52A9F3262A4E380066186E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF52A9F6262A4E380066186E /* HTEC_Tennis_Tour.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HTEC_Tennis_Tour.xcdatamodel; sourceTree = "<group>"; };
 		CF52A9F8262A4E390066186E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +64,21 @@
 		CF52AA0D262A4E390066186E /* HTEC Tennis TourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HTEC Tennis TourUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF52AA11262A4E390066186E /* HTEC_Tennis_TourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTEC_Tennis_TourUITests.swift; sourceTree = "<group>"; };
 		CF52AA13262A4E390066186E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF52AA2A262A5BCF0066186E /* ToursViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToursViewController.swift; sourceTree = "<group>"; };
+		CF52AA37262B14940066186E /* TourTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourTableViewCell.swift; sourceTree = "<group>"; };
+		CF52AA38262B14940066186E /* TourTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TourTableViewCell.xib; sourceTree = "<group>"; };
+		CF52AA3E262B14B50066186E /* PlayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableViewCell.swift; sourceTree = "<group>"; };
+		CF52AA3F262B14B50066186E /* PlayerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerTableViewCell.xib; sourceTree = "<group>"; };
+		CF52AA48262B200F0066186E /* PlayerInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerInfoViewController.swift; sourceTree = "<group>"; };
+		CF52AA4D262B26530066186E /* TourPlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourPlayersViewController.swift; sourceTree = "<group>"; };
+		CF52AA53262B37D30066186E /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		CF52AA5C262C685F0066186E /* APIRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequests.swift; sourceTree = "<group>"; };
+		CF52AA65262C6A090066186E /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		CF52AA85262F27D90066186E /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		CF52AAA62630ECBB0066186E /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		CF52AAAB2630FCF50066186E /* DrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
+		CF52AAB0263197790066186E /* DrawTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawTableViewCell.swift; sourceTree = "<group>"; };
+		CF52AAB1263197790066186E /* DrawTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrawTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +131,12 @@
 			children = (
 				CF52A9EC262A4E380066186E /* AppDelegate.swift */,
 				CF52A9EE262A4E380066186E /* SceneDelegate.swift */,
-				CF52A9F0262A4E380066186E /* ViewController.swift */,
+				CF52AA64262C68BB0066186E /* Models */,
+				CF52AA5B262C67B40066186E /* Networking */,
+				CF52AA52262B37960066186E /* Extensions */,
 				CF52A9F2262A4E380066186E /* Main.storyboard */,
+				CF52AA23262A4F6B0066186E /* TableViewCells */,
+				CF52AA22262A4F4F0066186E /* ViewControllers */,
 				CF52A9F8262A4E390066186E /* Assets.xcassets */,
 				CF52A9FA262A4E390066186E /* LaunchScreen.storyboard */,
 				CF52A9FD262A4E390066186E /* Info.plist */,
@@ -129,6 +161,56 @@
 				CF52AA13262A4E390066186E /* Info.plist */,
 			);
 			path = "HTEC Tennis TourUITests";
+			sourceTree = "<group>";
+		};
+		CF52AA22262A4F4F0066186E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF52AA2A262A5BCF0066186E /* ToursViewController.swift */,
+				CF52AAAB2630FCF50066186E /* DrawViewController.swift */,
+				CF52AA48262B200F0066186E /* PlayerInfoViewController.swift */,
+				CF52AA4D262B26530066186E /* TourPlayersViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CF52AA23262A4F6B0066186E /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				CF52AA37262B14940066186E /* TourTableViewCell.swift */,
+				CF52AA38262B14940066186E /* TourTableViewCell.xib */,
+				CF52AA3E262B14B50066186E /* PlayerTableViewCell.swift */,
+				CF52AA3F262B14B50066186E /* PlayerTableViewCell.xib */,
+				CF52AAB0263197790066186E /* DrawTableViewCell.swift */,
+				CF52AAB1263197790066186E /* DrawTableViewCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		CF52AA52262B37960066186E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CF52AA53262B37D30066186E /* UIView.swift */,
+				CF52AA85262F27D90066186E /* AlertHelper.swift */,
+				CF52AAA62630ECBB0066186E /* Helper.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CF52AA5B262C67B40066186E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CF52AA5C262C685F0066186E /* APIRequests.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CF52AA64262C68BB0066186E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CF52AA65262C6A090066186E /* Player.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +318,10 @@
 			files = (
 				CF52A9FC262A4E390066186E /* LaunchScreen.storyboard in Resources */,
 				CF52A9F9262A4E390066186E /* Assets.xcassets in Resources */,
+				CF52AA41262B14B50066186E /* PlayerTableViewCell.xib in Resources */,
 				CF52A9F4262A4E380066186E /* Main.storyboard in Resources */,
+				CF52AA3A262B14940066186E /* TourTableViewCell.xib in Resources */,
+				CF52AAB3263197790066186E /* DrawTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +346,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF52A9F1262A4E380066186E /* ViewController.swift in Sources */,
+				CF52AA86262F27D90066186E /* AlertHelper.swift in Sources */,
+				CF52AA54262B37D30066186E /* UIView.swift in Sources */,
+				CF52AA40262B14B50066186E /* PlayerTableViewCell.swift in Sources */,
+				CF52AA4E262B26530066186E /* TourPlayersViewController.swift in Sources */,
+				CF52AAAC2630FCF50066186E /* DrawViewController.swift in Sources */,
+				CF52AA49262B200F0066186E /* PlayerInfoViewController.swift in Sources */,
+				CF52AA66262C6A090066186E /* Player.swift in Sources */,
+				CF52AA2B262A5BCF0066186E /* ToursViewController.swift in Sources */,
+				CF52AA5D262C685F0066186E /* APIRequests.swift in Sources */,
 				CF52A9ED262A4E380066186E /* AppDelegate.swift in Sources */,
+				CF52AAB2263197790066186E /* DrawTableViewCell.swift in Sources */,
 				CF52A9F7262A4E380066186E /* HTEC_Tennis_Tour.xcdatamodeld in Sources */,
+				CF52AAA72630ECBB0066186E /* Helper.swift in Sources */,
+				CF52AA39262B14940066186E /* TourTableViewCell.swift in Sources */,
 				CF52A9EF262A4E380066186E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,7 +546,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.svemil.HTEC-Tennis-Tour";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -469,7 +565,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.svemil.HTEC-Tennis-Tour";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
